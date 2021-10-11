@@ -26,10 +26,8 @@ header {
   width: 100%;
   height: 1vh;
 }
-body{
 
-}
-.title{
+.title {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -42,11 +40,43 @@ body{
 
 
 }
-.line{
+
+.line {
   background-color: black;
   width: 100%;
   height: 1px;
 
+}
+
+.cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  margin: 5px 5px 5px 5px;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+  background-color: #4CB770;
+  flex: 0 1 calc(50% - 1em);
+}
+
+.card > img {
+  width: 50%;
+  height: auto;
+}
+
+.card > div {
+  font-size: 25pt;
+  height: 20%;
+}
+
+.centered {
+  margin: 1vh 1vh 1vh 1vh;
 }
 
 @media only screen and (min-width: 600px) {
