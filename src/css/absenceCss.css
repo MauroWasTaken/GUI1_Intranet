@@ -5,10 +5,12 @@ header {
   height: 10vh;
   flex-direction: column;
 }
-.mobile{
+
+.mobile {
   display: block;
 }
-.desktop{
+
+.desktop {
   display: none;
 }
 
@@ -117,43 +119,75 @@ header {
 
     flex: auto;
   }
-  .cardClassHeight{
+
+  .cardClassHeight {
     height: 20vh;
   }
-  .cardMatiereHeight{
+
+  .cardMatiereHeight {
     height: 50vh;
   }
-  .cardWhiteColor{
+
+  .cardWhiteColor {
     background-color: white;
   }
-  .cardGreenColor{
+
+  .cardGreenColor {
     background-color: #4CB770;
   }
+
   .card > div {
     font-size: 25pt;
     height: 20%;
   }
+
   .centered {
     margin: 1vh 1vh 1vh 1vh;
   }
 
-  .mobile{
+  .mobile {
     display: none;
   }
-  .desktop{
+
+  .desktop {
     display: block;
   }
+
   .lineVertical {
     background-color: black;
     width: 1px;
   }
-  button{
+
+  button {
     border: 0;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     color: #4CB770;
     height: 5vh;
     width: 50vh;
   }
+
+
+  .modal {
+
+  }
+
+  .modal-container {
+    position: fixed;
+    height: 90vh;
+    width: 190vh;
+    background-color: aquamarine;
+    top: 5vh;
+    left: 5vh;
+    display: flex;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .modal-container.show{
+    opacity: 1;
+    pointer-events: auto;
+  }
+
 }
 
