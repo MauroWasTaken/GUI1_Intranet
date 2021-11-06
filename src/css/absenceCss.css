@@ -1,91 +1,180 @@
-/* For mobile phones: */
-header {
-  display: flex;
-  width: 100%;
-  height: 10vh;
-  flex-direction: column;
-}
-
-.menu {
-  width: 3vh;
-  margin: 2vh 2vh;
-}
-
-.banner {
-  display: flex;
-  justify-content: space-between;
-}
-
-#logo {
-  height: 120px;
-  padding: 1vh 1vh 1vh 1vh;
-}
-
-.greenRectangle {
-  background-color: #4CB770;
-  width: 100%;
-  height: 1vh;
-}
-
-.title {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  flex-wrap: wrap;
-  font-size: 25pt;
-  width: 100%;
-  height: 5vh;
-
-
-}
-
-.line {
-  background-color: black;
-  width: 100%;
-  height: 1px;
-
-}
 
 .cards {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
 .card {
-  margin: 5px 5px 5px 5px;
-  justify-content: center;
-  align-content: center;
-  text-align: center;
-  flex-wrap: wrap;
-  background-color: #4CB770;
-  flex: 0 1 calc(50% - 1em);
+    margin: 5px 5px 5px 5px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    background-color: #4CB770;
+    flex: 0 1 calc(50% - 1em);
 }
 
 .card > img {
-  width: 50%;
-  height: auto;
+    width: 50%;
+    height: auto;
 }
 
 .card > div {
-  font-size: 25pt;
-  height: 20%;
+    font-size: 25pt;
+    height: 20%;
 }
 
 .centered {
-  margin: 1vh 1vh 1vh 1vh;
+    margin: 1vh 1vh 1vh 1vh;
 }
 
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
+@media screen and (min-width: 600px) {
+    /* For tablets: */
 
 }
 
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
+@media screen and (min-width: 768px) {
+    /* For desktop: */
+    .studentTitle {
+        font-size: 5vh;
+        color: #4CB770;
+        font-family: "Comic Sans MS";
+        justify-content: space-between;
+        display: flex;
+        align-items: center;
+
+    }
+
+    .cards {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+    }
+
+    .card {
+        margin: 0px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+
+        flex: auto;
+    }
+
+    .cardClassHeight {
+        height: 20vh;
+    }
+
+    .cardMatiereHeight {
+        height: 50vh;
+    }
+
+    .Bg_White {
+        background-color: white;
+    }
+
+    .Bg_Green {
+        background-color: #4CB770;
+    }
+
+    .Bg_DarkPink {
+        background-color: #F49FD1;
+    }
+
+    .Bg_Pink {
+        background-color: #FFB7C2;
+    }
+
+    .Bg_Red {
+        background-color: #FE8088;
+    }
+
+    .Bg_LightPurple {
+        background-color: #DFCDED;
+    }
+
+    .Bg_Blue {
+        background-color: #98A8FC;
+    }
+
+    .Bg_LightBlue {
+        background-color: #A1DDFF;
+    }
+
+    .Bg_Purple {
+        background-color: #C49EED;
+    }
+
+    .Bg_Yellow {
+        background-color: #FED280;
+    }
+
+    .Bg_Brown {
+        background-color: #C7A580;
+    }
+    .card > div {
+        font-size: 25pt;
+        height: 20%;
+    }
+
+    .centered {
+        margin: 1vh 1vh 1vh 1vh;
+    }
+
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: block;
+    }
+
+    .lineVertical {
+        background-color: black;
+        width: 1px;
+    }
+
+    button {
+        border: 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        color: black;
+        width: 50vh;
+    }
+    .smallButton {
+        height: 5vh;
+    }
+    .bigButton {
+        height: 20vh;
+    }
+
+    .modal {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-content: space-around;
+    }
+
+    .modal-container {
+        position: fixed;
+        height: 90vh;
+        width: 190vh;
+        background-color: #ffffff;
+        top: 5vh;
+        left: 5vh;
+        display: flex;
+        pointer-events: none;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+
+    .modal-container.show {
+        opacity: 1;
+        pointer-events: auto;
+    }
 
 }
 

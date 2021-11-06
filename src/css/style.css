@@ -1,0 +1,53 @@
+/* For mobile phones: */
+header {
+    display: flex;
+    width: 100%;
+    height: 10vh;
+    flex-direction: column;
+}
+
+.mobile {
+    display: block;
+}
+
+.desktop {
+    display: none;
+}
+
+.menu {
+    width: 3vh;
+    margin: 2vh 2vh;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+}
+
+#logo {
+    height: 120px;
+    padding: 1vh 1vh 1vh 1vh;
+}
+
+.greenRectangle {
+    background-color: #4CB770;
+    width: 100%;
+    height: 1vh;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 25pt;
+    width: 100%;
+    height: 5vh;
+}
+
+.line {
+    background-color: black;
+    width: 100%;
+    height: 1px;
+}
