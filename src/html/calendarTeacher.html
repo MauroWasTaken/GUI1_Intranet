@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="../js/script.js"></script>
+    <script src="../js/timetableUtil.js"></script>
+    <script crossorigin="anonymous" src="https://kit.fontawesome.com/9797ce1060.js"></script>
+    <link href="../css/absenceCss.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="banner">
+            <img id="logo" src="../ressource/cpnv.png">
+        </div>
+    </header>
+    <div class="title">
+        <div>Classe <span class="fontGreen">SI-T1A</span></div>
+    </div>
+    <div class="greenRectangle" style="margin-top: 10px"></div>
+    <div class="desktop">
+        <div class="cd-schedule loading">
+            <div class="timeline">
+                <ul>
+                    <li><span>08:00</span></li>
+                    <li><span>08:30</span></li>
+                    <li><span>09:00</span></li>
+                    <li><span>09:30</span></li>
+                    <li><span>10:00</span></li>
+                    <li><span>10:30</span></li>
+                    <li><span>11:00</span></li>
+                    <li><span>11:30</span></li>
+                    <li><span>12:00</span></li>
+                    <li><span>12:30</span></li>
+                    <li><span>13:00</span></li>
+                    <li><span>13:30</span></li>
+                    <li><span>14:00</span></li>
+                    <li><span>14:30</span></li>
+                    <li><span>15:00</span></li>
+                    <li><span>15:30</span></li>
+                    <li><span>16:00</span></li>
+                    <li><span>16:30</span></li>
+                    <li><span>17:00</span></li>
+                </ul>
+            </div>
+            <div class="events">
+                <ul class="wrap">
+                    <li class="events-group">
+                        <div class="top-info"><span>Lu 01.11</span></div>
+                        <ul>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="10:30"
+                                data-event="event-1"
+                                data-start="09:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="12:15"
+                                data-event="event-1"
+                                data-start="10:45">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="15:55"
+                                data-event="event-1"
+                                data-start="13:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="events-group">
+                        <div class="top-info"><span>Ma 02.11</span></div>
+
+                        <ul>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="10:30"
+                                data-event="event-1"
+                                data-start="09:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="12:15"
+                                data-event="event-1"
+                                data-start="10:45">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="15:55"
+                                data-event="event-1"
+                                data-start="13:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="events-group">
+                        <div class="top-info"><span>Me 03.11</span></div>
+                        <ul>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="10:30"
+                                data-event="event-1"
+                                data-start="09:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="12:15"
+                                data-event="event-1"
+                                data-start="10:45">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="15:55"
+                                data-event="event-1"
+                                data-start="13:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="events-group">
+                        <div class="top-info"><span>Je 04.11</span></div>
+                        <ul>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="10:30"
+                                data-event="event-1"
+                                data-start="09:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="12:15"
+                                data-event="event-1"
+                                data-start="10:45">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="15:55"
+                                data-event="event-1"
+                                data-start="13:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="events-group">
+                        <div class="top-info"><span>Ve 05.11</span></div>
+                        <ul>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="10:30"
+                                data-event="event-1"
+                                data-start="09:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="12:15"
+                                data-event="event-1"
+                                data-start="10:45">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="15:55"
+                                data-event="event-1"
+                                data-start="13:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <!--        -->
+                    <li class="events-group">
+                        <div class="top-info"><span>Sa 06.11</span></div>
+                        <ul>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="10:30"
+                                data-event="event-1"
+                                data-start="09:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="12:15"
+                                data-event="event-1"
+                                data-start="10:45">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                            <li class="single-event" data-content="TeacherGUI1" data-end="15:55"
+                                data-event="event-1"
+                                data-start="13:30">
+                                <a href="#0">
+                                    <em class="event-name">GUI1</em>
+                                    <em class="event-info">SC-C332 Mottier André</em>
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="event-modal">
+                <header class="header">
+                    <div class="content">
+                        <span class="event-date"></span>
+                        <h3 class="event-name"></h3>
+                    </div>
+                    <div class="header-bg"></div>
+                </header>
+
+                <div class="body">
+                    <div class="event-info"></div>
+                    <div class="body-bg"></div>
+                </div>
+                <a class="close" href="#0">Close</a>
+            </div>
+            <div class="cover-layer"></div>
+        </div>
+    </div>
+    <div class="mobile">
+        <h1><span class="fontGreen">Lundi </span> 01.11</h1>
+        <ul class="line"></ul>
+        <div class="cards">
+            <a class="card">
+                <div><span class="fontGreen">GUI1 / </span>08:00-09:35</div>
+                <div align="right"><i class="fas fa-clock fa-2x"></i><br>SC-C332 <br> Mottier André</div>
+            </a>
+            <a class="card">
+                <div><span class="fontGreen">GUI1 / </span>08:00-09:35</div>
+                <div align="right"><i class="fas fa-clock fa-2x"></i><br>SC-C332 <br> Mottier André</div>
+            </a>
+            <a class="card">
+                <div><span class="fontGreen">GUI1 / </span>08:00-09:35</div>
+                <div align="right"><i class="fas fa-clock fa-2x"></i><br>SC-C332 <br> Mottier André</div>
+            </a>
+        </div>
+        <h1><span class="fontGreen">Mardi </span> 02.11</h1>
+        <ul class="line"></ul>
+        <div class="cards">
+            <a class="card">
+                <div><span class="fontGreen">GUI1 / </span>08:00-09:35</div>
+                <div align="right"><i class="fas fa-clock fa-2x"></i><br>SC-C332 <br> Mottier André</div>
+            </a>
+            <a class="card">
+                <div><span class="fontGreen">GUI1 / </span>08:00-09:35</div>
+                <div align="right"><i class="fas fa-clock fa-2x"></i><br>SC-C332 <br> Mottier André</div>
+            </a>
+        </div>
+    </div>
+</body>
+</html>
