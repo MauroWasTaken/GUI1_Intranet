@@ -4,20 +4,19 @@
   <meta charset="UTF-8">
   <title>Title</title>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+  <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/absenceCss.css">
 
 
-</head>
 
+</head>
 <header>
   <div class="banner">
     <img id="logo" src="../ressource/cpnv.png">
     <i class="fas fa-bars fa-5x menu"></i>
   </div>
 </header>
-
 <body>
-
 <div class="mobile">
   <div class="title">
     <div>Classe SI-T1A</div>
@@ -90,7 +89,7 @@
   <br>
   <div class="greenRectangle"></div>
   <div class="studentTitle">Mauro-Alexandre Costa-dos-Santos
-    <button id="open">
+    <button class="smallButton" id="open">
       Légendes et outils...
     </button>
   </div>
@@ -98,8 +97,33 @@
   <div class="modal-container" id="modal-container">
     <div class="modal">
       <!-- Contenu de la fenêtre modale -->
-      Bonjour je suis le contenu
-
+      <button class="Bg_Red bigButton" onclick="changeColorSelected(this)">
+        Abs. injustifiée
+      </button>
+      <button class="Bg_LightPurple" onclick="changeColorSelected(this)">
+        Abs. j. hors délai
+      </button>
+      <button class="Bg_Blue bigButton" onclick="changeColorSelected(this)">
+        RDV / externe
+      </button>
+      <button class="Bg_Pink bigButton" onclick="changeColorSelected(this)">
+        Exclusion
+      </button>
+      <button class="Bg_DarkPink bigButton" onclick="changeColorSelected(this)">
+        Congé accordé
+      </button>
+      <button class="Bg_LightBlue bigButton" onclick="changeColorSelected(this)">
+        Appui / Retenue
+      </button>
+      <button class="Bg_Purple bigButton" onclick="changeColorSelected(this)">
+        Abs. justifiée
+      </button>
+      <button class="Bg_Yellow bigButton" onclick="changeColorSelected(this)">
+        Arrivée tardive
+      </button>
+      <button class="Bg_Brown bigButton" onclick="changeColorSelected(this)">
+        Devoir non fait
+      </button>
     </div>
   </div>
 
@@ -108,51 +132,51 @@
   <div>
     <div class="cards">
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardClassHeight cardWhiteColor">
+      <a class="card cardClassHeight Bg_White">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div></div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div></div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div></div>
       </a>
       <div class="lineVertical cardClassHeight"></div>
@@ -161,51 +185,51 @@
     <div class="line"></div>
     <div class="cards">
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card cardMatiereHeight">
+      <a class="card cardMatiereHeight"  onclick="changeColorCards(this)">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card">
+      <a class="card"  onclick="changeColorCards(this)">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card">
+      <a class="card"  onclick="changeColorCards(this)">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card">
+      <a class="card"  onclick="changeColorCards(this)">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card">
+      <a class="card"  onclick="changeColorCards(this)">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div></div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card">
+      <a class="card"  onclick="changeColorCards(this)">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card">
+      <a class="card"  onclick="changeColorCards(this)">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card">
+      <a class="card"  onclick="changeColorCards(this)">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card">
+      <a class="card"  onclick="changeColorCards(this)">
         <div>GUI1</div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div></div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
-      <a class="card cardWhiteColor">
+      <a class="card Bg_White">
         <div></div>
       </a>
       <div class="lineVertical cardMatiereHeight"></div>
