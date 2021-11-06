@@ -32,7 +32,6 @@
 
 @media screen and (min-width: 600px) {
     /* For tablets: */
-
 }
 
 @media screen and (min-width: 768px) {
@@ -44,7 +43,6 @@
         justify-content: space-between;
         display: flex;
         align-items: center;
-
     }
 
     .cards {
@@ -115,6 +113,7 @@
     .Bg_Brown {
         background-color: #C7A580;
     }
+
     .card > div {
         font-size: 25pt;
         height: 20%;
@@ -144,9 +143,11 @@
         color: black;
         width: 50vh;
     }
+
     .smallButton {
         height: 5vh;
     }
+
     .bigButton {
         height: 20vh;
     }
@@ -175,6 +176,4 @@
         opacity: 1;
         pointer-events: auto;
     }
-
 }
-
