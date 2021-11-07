@@ -39,7 +39,6 @@
     .studentTitle {
         font-size: 5vh;
         color: #4CB770;
-        font-family: "Comic Sans MS";
         justify-content: space-between;
         display: flex;
         align-items: center;
@@ -122,15 +121,6 @@
     .centered {
         margin: 1vh 1vh 1vh 1vh;
     }
-
-    .mobile {
-        display: none;
-    }
-
-    .desktop {
-        display: block;
-    }
-
     .lineVertical {
         background-color: black;
         width: 1px;

@@ -1,5 +1,9 @@
 /* For mobile phones: */
+html{
+  font-family: "Roboto Light", sans-serif;
+}
 header {
+  font-family: "Roboto Light", sans-serif;
     display: flex;
     width: 99%;
     height: 11vh;
@@ -53,10 +57,11 @@ header {
     height: 40%;
     padding: 1vh 1vh 1vh 1vh;
   }
+}
+@media only screen and (min-width: 768px) {
   .mobile {
     display: none;
   }
-
   .desktop {
     display: block;
   }

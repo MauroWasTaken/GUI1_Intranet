@@ -1,0 +1,104 @@
+.codyhouse {
+    text-align: center;
+    margin: 40px 0;
+}
+/* reset css */
+/* https://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, main {
+    display: block;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* style css */
+/* --------------------------------
+Primary style
+-------------------------------- */
+*, *::after, *::before {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    color: #222;
+    background-color: white;
+}
+
+a {
+    color: #a2b9b2;
+    text-decoration: none;
+}
+/*Mobile  interface*/
+.cards {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: auto;
+}
+.classcard {
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    margin: auto auto 10px auto;
+    padding: 15px 5px 0px 5px;
+    justify-content: center;
+    align-content: center;
+    flex-wrap: wrap;
+    background-color: #dfdfdf;
+    flex: 0 1 calc(100% - 2em);
+    color: black;
+}
+.classcard > div {
+    flex: 1;
+    margin-bottom: 7px;
+    font-size: 25pt;
+    min-height: 150px;
+}
+.classcard > .bigdiv {
+    flex: 0 1 calc(100%);
+    min-height: 0;
+}
+.classcard > .bigdiv >h4 {
+    margin: 0px;
+}
+.fontGreen {
+    color: #05a75d;
+}
+@media only screen and (min-width: 1225px) {
+    .classcard {
+        border-radius: 10px;
+        display: flex;
+        flex-direction: row;
+        margin: auto auto 10px auto;
+        padding: 15px 5px 0px 5px;
+        align-content:flex-start;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #dfdfdf;
+        flex: 0 1 calc(50% - 1em);
+        color: black;
+    }
+}
