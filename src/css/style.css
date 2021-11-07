@@ -21,6 +21,13 @@ header {
 .desktop {
     display: none;
 }
+button {
+  border: 0;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  color: black;
+  width: 50vh;
+}
 
 .menu {
     width: 3vh;
