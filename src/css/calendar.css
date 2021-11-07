@@ -632,23 +632,7 @@ Main Components
 
 /*Changing between timetables */
 
-/* if desktop */
 
-.mobile {
-    display: block;
-}
-.desktop {
-    display: none;
-}
-/* if mobile device max width 750px */
-@media only screen and (min-device-width: 750px) {
-    .mobile {
-        display: none;
-    }
-    .desktop {
-        display: block;
-    }
-}
 /*Mobile  interface*/
 .cards {
     display: flex;

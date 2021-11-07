@@ -30,11 +30,7 @@
     margin: 1vh 1vh 1vh 1vh;
 }
 
-@media screen and (min-width: 600px) {
-    /* For tablets: */
-}
-
-@media screen and (min-width: 768px) {
+@media screen and (orientation: landscape) {
     /* For desktop: */
     .studentTitle {
         font-size: 5vh;
@@ -57,7 +53,6 @@
         align-content: center;
         text-align: center;
         flex-wrap: wrap;
-
         flex: auto;
     }
 
@@ -125,7 +120,6 @@
         background-color: black;
         width: 1px;
     }
-
     button {
         border: 0;
         border-radius: 5px;
