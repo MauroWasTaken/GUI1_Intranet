@@ -3,16 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <script src="sw.js"></script>
-    <link rel="manifest" href="manifest.json">
+
+    <meta name="description" content="">
+    <meta name="author" content="">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link href="css/style.css" rel="stylesheet">
     <link href="css/classList.css" rel="stylesheet">
+
+    <link rel="manifest" href="manifest.json"}>
+
+    <script>
+        console.log('test');
+        if('serviceWorker' in navigator) {
+          navigator.serviceWorker.register('./sw.js', { scope: './' })
+        }
+      </script>
 </head>
 <header>
     <div class="banner">
         <a href="index.html"><img id="logo" src="ressource/cpnv.png"></a>
-
     </div>
 </header>
 

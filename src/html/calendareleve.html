@@ -5,9 +5,19 @@
     <title>Title</title>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="../js/script.js"></script>
+    <script src="../js/timetableUtil.js"></script>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
     <link rel="stylesheet" href="../css/style.css">
     <link href="../css/calendar.css" rel="stylesheet">
+    <script>
+        document.addEventListener("DOMContentLoaded", function(){
+            //dom is fully loaded, but maybe waiting on images & css files
+        });
+
+        window.addEventListener("load", function(){
+            //everything is fully loaded, don't use me if you can use DOMContentLoaded
+        });
+      </script>
 </head>
 <body>
     <header>
