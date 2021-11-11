@@ -6,7 +6,7 @@ header {
   font-family: "Roboto Light", sans-serif;
     display: flex;
     width: 99%;
-    height: 11vh;
+    min-height: 11vh;
     flex-direction: column;
 }
 .banner {

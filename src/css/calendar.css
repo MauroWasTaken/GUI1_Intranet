@@ -50,7 +50,7 @@ body {
 }
 
 a {
-    color: #a2b9b2;
+    color: #000;
     text-decoration: none;
 }
 
@@ -199,7 +199,6 @@ Main Components
     height: 100%;
     padding: .8em;
 }
-
 @media only screen and (min-width: 550px) {
     .cd-schedule .events .single-event {
         width: 40%;
@@ -270,7 +269,7 @@ Main Components
         margin-right: 0;
     }
     .cd-schedule .events .single-event a {
-        padding: 1.2em;
+        padding: 0.5em;
     }
     .cd-schedule .events .single-event:last-of-type {
         /* reset style */
@@ -309,13 +308,14 @@ Main Components
 }
 
 .cd-schedule .event-name {
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 @media only screen and (min-width: 670px) {
     .cd-schedule .event-name {
-        font-size: 2rem;
+        font-size: 1.7rem;
     }
+
 }
 
 .cd-schedule .event-desc,

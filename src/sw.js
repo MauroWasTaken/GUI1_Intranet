@@ -7,14 +7,27 @@ self.addEventListener('install', e => {
       // Our application only has two files here index.html and manifest.json
       // but you can add more such as style.css as your app grows
       return cache.addAll([   
-        'js/*',
+        'js/absence*',
+        'js/script*',
+        'js/timetableUtil*',
         'index.html',
         'index.php',
         'manifest.json',
-        'images/*',
-        'ressource/*',
-        'css/*',
-        'html/*',
+        'logos/logo.png',
+        'logos/logo144.png',
+        'logos/logo192.png',
+        'css/absenceCss.css',
+        'css/calendar.css',
+        'css/classList.css',
+        'css/style.css',
+        'css/absenceCss',
+        'ressource/cpnv.png',
+        'ressource/mathieu_rabot.jpg',
+        'html/absence.html',
+        'html/calendareleve.html',
+        'html/calendarTeacher.html',
+        'html/GUI1.html',
+        'html/TeacherGUI1.html',
       ]);
     })
   );

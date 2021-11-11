@@ -54,6 +54,18 @@
         text-align: center;
         flex-wrap: wrap;
         flex: auto;
+        width: 140px;
+        word-wrap: break-word;
+    }
+    .card_blank{
+        margin: 0px;
+        justify-content: center;
+        align-content: center;
+        text-align: center;
+        flex-wrap: wrap;
+        flex: auto;
+        min-width: 60px;
+        
     }
 
     .cardClassHeight {
@@ -109,7 +121,7 @@
     }
 
     .card > div {
-        font-size: 25pt;
+        font-size: 15pt;
         height: 20%;
     }
 
