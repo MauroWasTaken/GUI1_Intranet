@@ -33,7 +33,7 @@
 @media screen and (orientation: landscape) {
     /* For desktop: */
     .studentTitle {
-        font-size: 5vh;
+        font-size: 3vh;
         color: #4CB770;
         justify-content: space-between;
         display: flex;
@@ -43,19 +43,22 @@
     .cards {
         display: flex;
         justify-content: space-between;
-        flex-wrap: wrap;
-
+        flex-wrap: nowrap;
+        flex-direction: row;
+        height: 100%;
+        width: 100%;
     }
 
     .card {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
         margin: 0px;
-        justify-content: center;
-        align-content: center;
-        text-align: center;
-        flex-wrap: wrap;
-        flex: auto;
-        width: 140px;
         word-wrap: break-word;
+        border: 1px black solid;
+        min-width: 60px;
+
+
     }
     .card_blank{
         margin: 0px;
@@ -64,16 +67,20 @@
         text-align: center;
         flex-wrap: wrap;
         flex: auto;
-        min-width: 60px;
+        width: 200px;
+        border: 1px black solid;
         
     }
 
     .cardClassHeight {
-        height: 20vh;
+        height: 13vh;
     }
 
     .cardMatiereHeight {
         height: 50vh;
+    }
+    .cardLineHeight {
+        height: 70vh;
     }
 
     .Bg_White {
@@ -129,19 +136,9 @@
         margin: 1vh 1vh 1vh 1vh;
     }
     .lineVertical {
-        background-color: black;
+        background-color: black !important;
         width: 1px;
     }
-
-
-    .smallButton {
-        height: 5vh;
-    }
-
-    .bigButton {
-        height: 20vh;
-    }
-
     .modal {
         display: flex;
         flex-wrap: wrap;
@@ -150,20 +147,39 @@
     }
 
     .modal-container {
-        position: fixed;
+        position: absolute;
         height: 90vh;
-        width: 190vh;
         background-color: #ffffff;
         top: 5vh;
         left: 5vh;
+        right: 5vh;
+        bottom: 5vh;
         display: flex;
         pointer-events: none;
         opacity: 0;
         transition: opacity 0.3s ease;
+        border: 1px solid black;
     }
 
     .modal-container.show {
         opacity: 1;
         pointer-events: auto;
+    }
+
+    button {
+
+    }
+
+    .smallButton {
+        height: 5vh;
+    }
+    .bigButton {
+        width: 30vh;
+    }
+
+    @media screen and (max-width: 800px) {
+        .bigButton {
+            width: 30vh;
+        }
     }
 }
